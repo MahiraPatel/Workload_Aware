@@ -41,7 +41,8 @@ The main script `workload_aware_ds.py` runs several experiments:
 7. Performs a parameter sweep over different layer counts and promotion thresholds.
 8. Compares results with a static Bloom filter.
 
-To run the script, simply execute:
+To run the script first you need to import dataset (https://www.kaggle.com/datasets/samahsadiq/benign-and-malicious-urls) 
+in your working directory before running the program, and then simply execute:
 
 ```bash
 python workload_aware_ds.py
